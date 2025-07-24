@@ -4,6 +4,8 @@ body {
 
 .rotation-pad {
 	position: fixed;
+	bottom: 10px;
+	right: 20px;
 }
 
 .rotation-pad .region {
@@ -36,6 +38,8 @@ body {
 
 .movement-pad {
 	position: fixed;
+	bottom: 20px;
+	left: 20px;
 }
 
 .movement-pad .region {
