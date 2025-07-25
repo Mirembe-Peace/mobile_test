@@ -23,6 +23,7 @@ class MovementPad {
         this.region.appendChild(this.handle)
         this.padElement.append(this.region)
         this.container.append(this.padElement)
+        this.container.appendChild('.canvas')
 
         // Aligning pad:
         let canvas = container.querySelector('.canvas')
