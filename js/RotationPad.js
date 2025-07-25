@@ -23,6 +23,7 @@ class RotationPad {
         this.region.appendChild(this.handle)
         this.padElement.append(this.region)
         this.container.append(this.padElement)
+        this.container.append('.canvas')
 
         // Aligning pad:
         let canvas = container.querySelector('.canvas')
